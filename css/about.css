@@ -1,0 +1,79 @@
+#about-section{
+    padding: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-me{
+    display: flex;
+    padding-left: 5%;
+}
+
+
+.about-text{
+    box-sizing: border-box;
+    padding: 50px 25px 50px 50px ;
+}
+
+
+.about-me img{
+    width: 30vw;
+    height: 30vw;
+}
+
+.bio-text{
+     
+}
+.bio-text h1{
+    font-size: 2vw;
+    padding: 2vh 0;
+    color: #3d3d3d;
+}
+.bio-text p{
+    font-size: 1.5vw;
+    color: #3d3d3d;
+}
+
+.about-text{
+    align-self: center;
+}
+
+@media (max-width:768px){
+    #about-section{
+        padding: 10% 5%;
+    }
+    .about-me{
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+    .about-me img{
+        align-self: center;
+    }
+    
+    .bio-text h1{
+        font-size: large;
+    }
+    .bio-text p{
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 500px){
+    .about-me img{
+        width: 40%;
+        height: 40%;
+    }
+    .about-text {
+        padding:10px;
+    }
+    .bio-text h1{
+        font-size: 15px;
+    }
+    .bio-text p{
+        font-size: 14px;
+    }
+}
+

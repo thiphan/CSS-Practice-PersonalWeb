@@ -1,0 +1,90 @@
+#intro-section{
+    display: flex;
+    display: flex;
+    margin: auto;
+    min-height: 90vh;
+    align-items: center;
+    padding-left: 150px;
+}
+.intro{
+    flex:1;
+    padding-bottom: 50px;
+}
+
+.intro-text h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #dbdfe0;
+}
+.intro-text p{
+    margin-top: 5px;
+    font-size: 30px;
+    color: #5c5c5c;
+    
+}
+
+.button-wrap{
+    padding-top: 50px;
+}
+.intro-button{
+    width: 200px;
+    background: transparent;
+    border: 2px solid #e4e4e4;
+    padding: 9px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;; 
+    align-self: flex-end;
+}
+
+.intro-button:hover{
+    background-color: #8b98a1;
+}
+
+@media (min-width: 1202px){
+    .intro-text h1 {
+        font-size: 60px;
+    }
+    .intro-text p{
+        font-size: 40px;
+    }
+
+    .intro-button{
+        width:300px;
+        padding: 15px 25px;
+        font-size: 25px;
+    }
+}
+@media (max-width: 768px){
+    #intro-section{
+        justify-items: center;
+        padding:20px;
+    }
+    .intro{
+        padding-left: 5%;
+    }
+    .intro-text h1 {
+        font-size: 35px;
+    }
+    .intro-text p{
+        font-size: 20px;
+    }
+
+    .intro-button{
+        padding: 9px 20px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 600px){
+    .intro-text h1 {
+        font-size: 20px;
+    }
+    .intro-text p{
+        font-size: 14px;
+    }
+
+    .intro-button{
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+}

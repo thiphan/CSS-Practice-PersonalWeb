@@ -1,0 +1,50 @@
+@import "about.css";
+@import "first-page.css";
+@import "footer.css";
+@import "header.css";
+@import "intro.css";
+@import "portfolio.css";
+@import "latest-posts.css";
+@import "blog-post.css";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+section {
+    height: 100vh;
+    width: 100vw;
+}
+section:nth-child(1) {
+    background: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    background-position: center;
+    height: 94%;
+    
+}
+section:nth-child(2) {
+    background:#edf0f1;
+}
+section:nth-child(3) {
+    background: rgb(233, 232, 232);
+}
+section:nth-child(4) {
+    background: #edf0f1;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+h2,h3,p{
+    font-color: #3d3d3d;
+}
